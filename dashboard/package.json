@@ -1,0 +1,28 @@
+{
+  "name": "burnout-radar-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently --names \"BACKEND,AGENT,VITE\" --prefix-colors \"cyan,magenta,green\" \"npm run backend\" \"npm run agent\" \"npm run vite\"",
+    "backend": "cmd /c \"cd /d ../backend && uvicorn main:app --host 0.0.0.0 --port 8000 --reload\"",
+    "agent": "cmd /c \"cd /d ../agent && python tracker_gui.py\"",
+    "vite": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "framer-motion": "^11.2.12",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "concurrently": "^9.2.1",
+    "vite": "^5.3.4"
+  }
+}

@@ -1,0 +1,8 @@
+fastapi==0.135.3
+uvicorn[standard]==0.43.0
+sqlmodel==0.0.38
+scikit-learn==1.8.0
+numpy==2.4.4
+pandas==3.0.1
+websockets==16.0
+python-multipart==0.0.26
