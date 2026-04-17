@@ -8,3 +8,5 @@ __pycache__/
 .env
 .DS_Store
 Thumbs.db
+SETUP_REMOTE.md
+STARTUP_EXPLANATION.md
