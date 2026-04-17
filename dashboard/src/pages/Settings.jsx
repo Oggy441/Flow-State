@@ -121,10 +121,10 @@ export default function Settings({ userId }) {
 
         <div className="card" style={{ background: 'var(--bg-secondary)' }}>
           <h3 style={{ fontSize: 'var(--font-size-md)', fontWeight: 700, marginBottom: 'var(--space-sm)' }}>
-            BurnoutRadar v1.0
+            Flow State v1.0
           </h3>
           <p style={{ fontSize: 'var(--font-size-sm)', color: 'var(--text-secondary)', lineHeight: 1.7 }}>
-            Real-time burnout detection through behavioural biometrics. BurnoutRadar analyzes
+            Real-time burnout detection through behavioural biometrics. Flow State analyzes
             mouse movement patterns, typing dynamics, scroll behaviour, and session patterns
             to estimate cognitive fatigue without ever accessing your content.
           </p>

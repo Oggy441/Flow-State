@@ -14,8 +14,8 @@ export default function App() {
       <div className="app-layout">
         <nav className="navbar">
           <div className="navbar-brand">
-            <div className="logo-icon">B</div>
-            BurnoutRadar
+            <div className="logo-icon">F</div>
+            Flow State
           </div>
 
           <div className="navbar-nav">
