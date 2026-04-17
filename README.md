@@ -11,7 +11,7 @@ Example usage once you add screenshots:
 ![Dashboard Overview](./screenshots/dashboard.jpeg)
 
 Data Collection (Local):
-![Data Collection](./screenshots/data_collection.png)
+![Data Collection](./screenshots/Data_Collection.png)
 
 ---
 
